@@ -13,6 +13,11 @@
 		FD4CEBE32509318400F05EEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4CEBE12509318400F05EEB /* Main.storyboard */; };
 		FD4CEBE52509318600F05EEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4CEBE42509318600F05EEB /* Assets.xcassets */; };
 		FD4CEBE82509318600F05EEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4CEBE62509318600F05EEB /* LaunchScreen.storyboard */; };
+		FD4CEBF1250A6B6100F05EEB /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD4CEBF0250A6B6100F05EEB /* WebKit.framework */; };
+		FD4CEC07250AB17200F05EEB /* coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD4CEC03250AB17200F05EEB /* coffee.jpg */; };
+		FD4CEC08250AB17200F05EEB /* mall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD4CEC04250AB17200F05EEB /* mall.jpg */; };
+		FD4CEC09250AB17200F05EEB /* UW.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD4CEC05250AB17200F05EEB /* UW.jpg */; };
+		FD4CEC0A250AB17200F05EEB /* duckduckgo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD4CEC06250AB17200F05EEB /* duckduckgo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		FD4CEBE42509318600F05EEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD4CEBE72509318600F05EEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD4CEBE92509318600F05EEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD4CEBF0250A6B6100F05EEB /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		FD4CEC03250AB17200F05EEB /* coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coffee.jpg; sourceTree = "<group>"; };
+		FD4CEC04250AB17200F05EEB /* mall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mall.jpg; sourceTree = "<group>"; };
+		FD4CEC05250AB17200F05EEB /* UW.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UW.jpg; sourceTree = "<group>"; };
+		FD4CEC06250AB17200F05EEB /* duckduckgo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = duckduckgo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD4CEBF1250A6B6100F05EEB /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +51,10 @@
 		FD4CEBCF2509318400F05EEB = {
 			isa = PBXGroup;
 			children = (
+				FD4CEBF2250A7BDC00F05EEB /* Images */,
 				FD4CEBDA2509318400F05EEB /* MyFaves */,
 				FD4CEBD92509318400F05EEB /* Products */,
+				FD4CEBEF250A6B6100F05EEB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +78,25 @@
 				FD4CEBE92509318600F05EEB /* Info.plist */,
 			);
 			path = MyFaves;
+			sourceTree = "<group>";
+		};
+		FD4CEBEF250A6B6100F05EEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD4CEBF0250A6B6100F05EEB /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD4CEBF2250A7BDC00F05EEB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FD4CEC03250AB17200F05EEB /* coffee.jpg */,
+				FD4CEC06250AB17200F05EEB /* duckduckgo.jpg */,
+				FD4CEC04250AB17200F05EEB /* mall.jpg */,
+				FD4CEC05250AB17200F05EEB /* UW.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +157,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD4CEC07250AB17200F05EEB /* coffee.jpg in Resources */,
+				FD4CEC0A250AB17200F05EEB /* duckduckgo.jpg in Resources */,
+				FD4CEC08250AB17200F05EEB /* mall.jpg in Resources */,
+				FD4CEC09250AB17200F05EEB /* UW.jpg in Resources */,
 				FD4CEBE82509318600F05EEB /* LaunchScreen.storyboard in Resources */,
 				FD4CEBE52509318600F05EEB /* Assets.xcassets in Resources */,
 				FD4CEBE32509318400F05EEB /* Main.storyboard in Resources */,
@@ -295,7 +331,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = edu.rockvalleycollege.MyFaves;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -312,7 +348,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = edu.rockvalleycollege.MyFaves;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
