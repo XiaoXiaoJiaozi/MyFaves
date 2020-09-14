@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD1154B9250C899300D018F3 /* scooters.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD1154B3250C899300D018F3 /* scooters.jpg */; };
+		FD1154BA250C899300D018F3 /* games.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD1154B4250C899300D018F3 /* games.jpg */; };
+		FD1154BB250C899300D018F3 /* cars.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD1154B5250C899300D018F3 /* cars.jpg */; };
+		FD1154BC250C899300D018F3 /* backpacking.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD1154B6250C899300D018F3 /* backpacking.jpg */; };
+		FD1154BD250C899300D018F3 /* pubs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD1154B7250C899300D018F3 /* pubs.jpg */; };
+		FD1154BE250C899300D018F3 /* bikes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD1154B8250C899300D018F3 /* bikes.jpg */; };
 		FD4CEBDC2509318400F05EEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4CEBDB2509318400F05EEB /* AppDelegate.swift */; };
 		FD4CEBDE2509318400F05EEB /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4CEBDD2509318400F05EEB /* MasterViewController.swift */; };
 		FD4CEBE02509318400F05EEB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4CEBDF2509318400F05EEB /* DetailViewController.swift */; };
@@ -21,6 +27,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD1154B3250C899300D018F3 /* scooters.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scooters.jpg; sourceTree = "<group>"; };
+		FD1154B4250C899300D018F3 /* games.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = games.jpg; sourceTree = "<group>"; };
+		FD1154B5250C899300D018F3 /* cars.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cars.jpg; sourceTree = "<group>"; };
+		FD1154B6250C899300D018F3 /* backpacking.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backpacking.jpg; sourceTree = "<group>"; };
+		FD1154B7250C899300D018F3 /* pubs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pubs.jpg; sourceTree = "<group>"; };
+		FD1154B8250C899300D018F3 /* bikes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bikes.jpg; sourceTree = "<group>"; };
 		FD4CEBD82509318400F05EEB /* MyFaves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFaves.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD4CEBDB2509318400F05EEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD4CEBDD2509318400F05EEB /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +103,12 @@
 		FD4CEBF2250A7BDC00F05EEB /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				FD1154B6250C899300D018F3 /* backpacking.jpg */,
+				FD1154B8250C899300D018F3 /* bikes.jpg */,
+				FD1154B5250C899300D018F3 /* cars.jpg */,
+				FD1154B4250C899300D018F3 /* games.jpg */,
+				FD1154B7250C899300D018F3 /* pubs.jpg */,
+				FD1154B3250C899300D018F3 /* scooters.jpg */,
 				FD4CEC03250AB17200F05EEB /* coffee.jpg */,
 				FD4CEC06250AB17200F05EEB /* duckduckgo.jpg */,
 				FD4CEC04250AB17200F05EEB /* mall.jpg */,
@@ -158,10 +176,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD4CEC07250AB17200F05EEB /* coffee.jpg in Resources */,
+				FD1154BD250C899300D018F3 /* pubs.jpg in Resources */,
+				FD1154BA250C899300D018F3 /* games.jpg in Resources */,
 				FD4CEC0A250AB17200F05EEB /* duckduckgo.jpg in Resources */,
 				FD4CEC08250AB17200F05EEB /* mall.jpg in Resources */,
+				FD1154BC250C899300D018F3 /* backpacking.jpg in Resources */,
+				FD1154BE250C899300D018F3 /* bikes.jpg in Resources */,
 				FD4CEC09250AB17200F05EEB /* UW.jpg in Resources */,
 				FD4CEBE82509318600F05EEB /* LaunchScreen.storyboard in Resources */,
+				FD1154BB250C899300D018F3 /* cars.jpg in Resources */,
+				FD1154B9250C899300D018F3 /* scooters.jpg in Resources */,
 				FD4CEBE52509318600F05EEB /* Assets.xcassets in Resources */,
 				FD4CEBE32509318400F05EEB /* Main.storyboard in Resources */,
 			);
